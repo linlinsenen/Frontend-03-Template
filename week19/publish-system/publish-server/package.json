@@ -1,0 +1,15 @@
+{
+    "name": "publish-server",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "publish": "scp -r ./*  root@39.101.xxx.xxx:/home/publish-server"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "unzipper": "^0.10.11"
+    }
+  }
